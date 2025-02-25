@@ -1,0 +1,62 @@
+{
+  "homepage": "https://Praneeth2025.github.io/portfolio",
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "framer-motion": "^11.18.2",
+    "googleapis": "^140.0.1",
+    "nodemailer": "^6.10.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-intersection-observer": "^9.15.1",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.9.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "description": "<h1>Portfolio Website (MERN Stack)</h1> Welcome to my portfolio website, built with the MERN stack (MongoDB, Express.js, React.js, and Node.js). This project showcases my skills and experience through a dynamic and interactive web application.",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
