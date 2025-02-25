@@ -1,0 +1,129 @@
+.navbar{
+    position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100px;
+    background-color: #151925;
+    transition: top 0.3s;
+}
+.left{
+    width:35%;
+    display: flex;
+    justify-content: left;
+}
+.right{
+    width:55%;
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    border-color: transparent;
+    width:120px;
+    height:30px;
+    font-size: 18px;
+    color:#03B0FD;
+    cursor: pointer;
+}
+.button {
+  position: relative;
+  border: none;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.button:focus,
+.button:hover {
+  color: #fff;
+}
+
+.button:focus:after,
+.button:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.button:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+
+body{
+    background-color: #151925;
+}
+.title{
+    color:white;
+    font-family:"Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+@keyframes typing {
+  /* Web Developer */
+  0%, 27.3488% { content: ""; }
+  1.667%, 48.2093% { content: "W"; }
+  3.334%, 46.0698% { content: "We"; }
+  5.001%, 44.9302% { content: "Web"; }
+  6.668%, 42.7907% { content: "Web "; }
+  8.335%, 40.6512% { content: "Web D"; }
+  11.669%, 38.5116% { content: "Web De"; }
+  13.336%, 36.3721% { content: "Web Dev"; }
+  15.003%, 34.2326% { content: "Web Deve"; }
+  16.670%, 32.0930% { content: "Web Devel"; }
+  19.3953%, 31.9535% { content: "Web Develo"; }
+  21.5349%, 29.8140% { content: "Web Develop"; }
+  23.6744%, 28.6744% { content: "Web Develope"; }
+  25.8140%, 26.5349% { content: "Web Developer"; }
+
+  /* AI ML Enthusiast */
+  50.4186%, 99.9302% { content: ""; }
+  52.5581%, 98.7907% { content: "A"; }
+  54.6977%, 97.6512% { content: "AI"; }
+  56.8372%, 96.5116% { content: "AI "; }
+  58.9767%, 95.3721% { content: "AI M"; }
+  60.1163%, 94.2326% { content: "AI ML"; }
+  62.2558%, 93.0930% { content: "AI ML "; }
+  64.3953%, 92.9535% { content: "AI ML E"; }
+  66.5349%, 91.2345% { content: "AI ML En"; }
+  68.6744%, 90.8140% { content: "AI ML Ent"; }
+  70.8140%, 89.4943% { content: "AI ML Enth"; }
+  72.9535%, 88.6744% { content: "AI ML Enthu"; }
+  74.0930%, 86.5349% { content: "AI ML Enthus"; }
+  76.2326%, 84.3953% { content: "AI ML Enthusi"; }
+  78.3721%, 82.2558% { content: "AI ML Enthusia"; }
+  78.5116%, 80.1163% { content: "AI ML Enthusiast"; }
+}
+
+
+  .typewriter {
+    --caret:#03B0FD;
+  }
+  
+  .typewriter::before {
+    content: "";
+    animation: typing 13.5s infinite;
+  }
+  
+  .typewriter::after {
+    content: "";
+    border-right: 1px solid var(--caret);
+    animation: blink 0.5s linear infinite;
+  }
