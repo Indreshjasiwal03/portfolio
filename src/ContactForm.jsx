@@ -22,7 +22,7 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('hhttps://portfolio-gorp.onrender.com/api/send', formData); // Adjust URL if needed
+      const response = await axios.post('https://portfolio-navy-mu-10.vercel.app/api/send', formData); // Adjust URL if needed
       alert(response.data);
     } catch (error) {
       console.error('Error sending email:', error);
