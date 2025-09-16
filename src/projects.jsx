@@ -14,14 +14,14 @@ const Projects = () => {
       title: 'QuickGPT',
       description:
         "QuickGPT is an AI-powered chat and image generation platform built using OpenAI APIs. It enables users to chat, create images, and share AI-driven responses seamlessly.",
-      explore: ""
+      explore: "https://quick-gpt-lime-three.vercel.app/"
     },
         {
           imageUrl: studyNotion,
           altText: 'StudyNotion Website',
           title: 'StudyNotion Website',
           description: "Study Notion is an educational website that provides online courses, study materials, and learning resources to help users upskill efficiently.",
-          explore:""
+          explore:"https://studynotion-website-5fem.onrender.com/"
         },
         {
        imageUrl: prescripto,
@@ -29,7 +29,7 @@ const Projects = () => {
       title: 'Prescripto',
       description:
         "Prescripto is an  healthcare platform that simplifies doctor appointment booking and prescription management. It helps patients connect with doctors and manage medical records seamlessly.",
-      explore: ""
+      explore: "https://prescripto-main-sbtc.onrender.com/"
     },
       ];
 
