@@ -1,12 +1,21 @@
 import React from 'react'
 import Card from './Card';
-import studyNotion from"./images/StudyNotion.jpg"
-import razorpay from"./images/razorpay-icon.jpg"
-import face from "./images/Face.jpg"
+import studyNotion from "./images/StudyNotion.jpg"
+import prescripto from "./images/about_image.jpg"
+import quickgpt from "./images/istockphoto-1495003645-1024x1024.jpg"
 import { motion } from 'framer-motion';
 
 const Projects = () => {
     const cards = [
+
+           {
+      imageUrl: quickgpt,
+      altText: 'QuickGPT',
+      title: 'QuickGPT',
+      description:
+        "QuickGPT is an AI-powered chat and image generation platform built using OpenAI APIs. It enables users to chat, create images, and share AI-driven responses seamlessly.",
+      explore: ""
+    },
         {
           imageUrl: studyNotion,
           altText: 'StudyNotion Website',
@@ -15,27 +24,13 @@ const Projects = () => {
           explore:""
         },
         {
-          imageUrl:face,
-          altText: 'Facial Recognition System',
-          title: 'Facial Recognition System',
-          description: "A Facial Recognition System identifies or verifies individuals by analyzing facial features using AI and deep learning, commonly used for security, authentication, and surveillance.",
-          explore:""
-
-        },
-        {
-          imageUrl: razorpay,
-          altText: 'Razorpay',
-          title: 'Razorpay Clone',
-          description: "The Razorpay Clone is a payment gateway platform that enables secure online transactions, supporting multiple payment methods like UPI, cards, and net banking.",
-          explore:""
-        },
-        // {
-        //     imageUrl: wise_way,
-        //     altText: 'wise_way',
-        //     title: 'WiseWay',
-        //     description: "a web application that uses advanced algorithms to calculate the most cost-effective route between two points.",
-        //     explore:"https://github.com/Praneeth2025/WiseWay-website"
-        //   }
+       imageUrl: prescripto,
+      altText: 'Prescripto',
+      title: 'Prescripto',
+      description:
+        "Prescripto is an  healthcare platform that simplifies doctor appointment booking and prescription management. It helps patients connect with doctors and manage medical records seamlessly.",
+      explore: ""
+    },
       ];
 
   return (

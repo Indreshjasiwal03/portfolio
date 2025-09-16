@@ -93,23 +93,21 @@ body{
   23.6744%, 28.6744% { content: "Web Develope"; }
   25.8140%, 26.5349% { content: "Web Developer"; }
 
-  /* AI ML Enthusiast */
-  50.4186%, 99.9302% { content: ""; }
-  52.5581%, 98.7907% { content: "A"; }
-  54.6977%, 97.6512% { content: "AI"; }
-  56.8372%, 96.5116% { content: "AI "; }
-  58.9767%, 95.3721% { content: "AI M"; }
-  60.1163%, 94.2326% { content: "AI ML"; }
-  62.2558%, 93.0930% { content: "AI ML "; }
-  64.3953%, 92.9535% { content: "AI ML E"; }
-  66.5349%, 91.2345% { content: "AI ML En"; }
-  68.6744%, 90.8140% { content: "AI ML Ent"; }
-  70.8140%, 89.4943% { content: "AI ML Enth"; }
-  72.9535%, 88.6744% { content: "AI ML Enthu"; }
-  74.0930%, 86.5349% { content: "AI ML Enthus"; }
-  76.2326%, 84.3953% { content: "AI ML Enthusi"; }
-  78.3721%, 82.2558% { content: "AI ML Enthusia"; }
-  78.5116%, 80.1163% { content: "AI ML Enthusiast"; }
+/* Data Analyst */
+50.4186%, 99.9302% { content: ""; }
+52.5581%, 98.7907% { content: "D"; }
+54.6977%, 97.6512% { content: "Da"; }
+56.8372%, 96.5116% { content: "Dat"; }
+58.9767%, 95.3721% { content: "Data"; }
+60.1163%, 94.2326% { content: "Data "; }
+62.2558%, 93.0930% { content: "Data A"; }
+64.3953%, 92.9535% { content: "Data An"; }
+66.5349%, 91.2345% { content: "Data Ana"; }
+68.6744%, 90.8140% { content: "Data Anal"; }
+70.8140%, 89.4943% { content: "Data Analy"; }
+72.9535%, 88.6744% { content: "Data Analys"; }
+74.0930%, 86.5349% { content: "Data Analyst"; }
+
 }
 
 

@@ -26,7 +26,12 @@ const AboutMe = () => {
       className='about_me'  id="aboutMey">
       <h2 className='heading'>About Me</h2>
     <div className="about_me_info">
-        <p className='about_me_left' algin="center">Hello! I'm Indresh Kumar, a budding MERN Stack Developer and AI/ML enthusiast. I am diving into front-end and back-end technologies, as well as exploring AI and machine learning tools like TensorFlow and PyTorch. Excited to connect and collaborate on innovative projects!</p>
+<p className='about_me_left' align="center">
+  Hello! I'm Indresh Kumar, a passionate Data Analyst and Web Developer. 
+  I enjoy working with data to uncover insights, build dashboards, and apply analytical techniques for decision-making. 
+  On the development side, I specialize in creating responsive, user-friendly web applications using modern technologies. 
+  Always eager to learn and grow, I’m excited to connect and collaborate on impactful projects!
+</p>
         <div className="about_me_right"></div>
     </div>
 
